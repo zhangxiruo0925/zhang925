@@ -1,0 +1,1469 @@
+h1,h2,h3,h4,h5,h6,body,ul,li,ol,dl,dt,dd,p,input,form,img,div{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li{
+    list-style: none;/* 去点 */
+}
+a,a:visited{
+    text-decoration: none;/* 去下划线 */
+    color: #000;
+}
+img{
+    border: none;/* 去边框 */
+    display: block;
+}
+body{
+    font-size: 14px;
+    font-family: "宋体";
+    min-width: 320px;/* 最小宽度 */
+    max-width: 1200px;/* 最大宽度 可以不设这条 */
+    margin: 0 auto;
+
+
+}
+.zhang_z{
+    width: 100%;
+    height: 2000px;
+}
+        .zhang_icon {
+          width: 1em;
+          height: 1em;
+          vertical-align: -0.15em;
+          fill: currentColor;
+          overflow: hidden;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            margin-bottom: 60px;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+
+        .zhang_header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background-color: #2482F6;
+        display: flex; 
+        align-items: center; 
+        padding: 0 16px;
+        box-sizing: border-box; 
+        z-index: 1000; 
+        }
+ 
+        .zhang_header a {
+        display: flex; 
+        align-items: center; 
+        text-decoration: none; 
+        color: #fff; 
+        }
+ 
+        .zhang_header .zhang_icon {
+        font-size: 36px; 
+        margin-right: 0px; 
+        }
+ 
+        .zhang_header p {
+        font-size: 20px; 
+        margin: 0; 
+        }
+
+        .zhang_header2{
+        display: flex;
+        margin-left: auto; 
+        }
+ 
+        .zhang_header2 a {
+        margin-left: 16px; 
+        }
+
+        .zhang_header2 .zhang_icon {
+        font-size: 20px; 
+        margin-right: 5px; 
+        }
+ 
+        .zhang_header2 p {
+        font-size: 12px; 
+        margin: 0; 
+        }
+
+       
+        .zhang_main {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+        align-items: center; 
+        padding: 5px;
+        background-color: #F5F6FA; 
+        }
+
+        .zhang_box1, .zhang_box2, .zhang_box3, .zhang_box4, .zhang_box5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        border-radius: 10px; 
+        width: 100px; 
+        margin-top: 60px;
+        }
+
+        .zhang_box1  { background-color: #FA805B; } 
+        .zhang_box2  { background-color: #F8B63C; } 
+        .zhang_box3  { background-color: #2692F4; } 
+        .zhang_box4  { background-color: #937AFA; } 
+        .zhang_box5  { background-color: #29CEAE; } 
+
+
+        .zhang_icon {
+        width: 30px; 
+        height: 30px; 
+        margin-bottom: 5px; 
+        color: white; 
+        }
+
+        .zhang_box1 p, .zhang_box2 p, .zhang_box3 p, .zhang_box4 p, .zhang_box5 p {
+        margin: 0; 
+        color: white; 
+        font-size: 14px; 
+        }
+
+
+        .zhang_list {
+        display: flex;
+        justify-content: space-around; 
+        padding: 0; 
+        list-style: none; 
+        margin-top: 10px; 
+        width: 100%; 
+        }
+
+
+        .zhang_list li {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        width: 100px; 
+        box-sizing: border-box; 
+        }
+
+        .zhang_list .list-button {
+            background-color: transparent; /* 无背景颜色 */
+            border: none; /* 无边框 */
+            display: block; /* 块级元素，使其显示在图标下方 */
+            margin-top: 10px; /* 与图标保持一定距离 */
+            text-align: center; /* 文字居中显示 */
+            color: #000; /* 文字颜色 */
+        }
+
+        .zhang_more {
+        display: flex;
+        justify-content: center; /* 图标和文本平均分布 */
+        align-items: center; /* 垂直居中 */
+        padding: 3px 0; /* 上下内边距 */
+        background-color: #E9F0F6; /* 背景颜色 */
+        width: 100%; /* 占满一整行 */
+        margin-top: 10px; /* 与上方列表的间距 */
+        border-radius: 50px; /* 边框圆角 */
+        }
+
+        .zhang_more .zhang_icon {
+        width: 20px; /* SVG图标的宽度 */
+        height: 30px; /* SVG图标的高度 */
+        margin-right: 15px; /* 图标之间的间距 */
+        }
+
+        .zhang_more p {
+        margin: 0; /* 移除默认的外边距 */
+        color: #000; /* 文字颜色 */
+        font-size: 14px; /* 文字大小 */
+        }
+
+        .zhang_search {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3px;
+        background-color: #fff;
+        border: 2px solid #2482F6;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 10px;
+        border-radius: 10px; /* 搜索框圆角 */
+        }
+
+        .zhang_search span:first-child {
+        font-size: 16px;
+        color: #000;
+        }
+
+        .search_box {
+        display: flex;
+        align-items: center;
+        background-color: #2482F6;
+        color: #fff;
+        padding: 5px 15px;
+        border-radius: 10px; /* 按钮圆角 */
+        }
+
+        .search_box .zhang_icon {
+        margin-right: 5px;
+        }
+
+        .search_box .zhang_icon svg {
+        width: 20px; /* SVG图标的宽度 */
+        height: 20px; /* SVG图标的高度 */
+        }
+
+        .search_text {
+        font-size: 16px;
+        color: #fff;
+        }
+
+        .zhang_explore {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3px 0;
+        background-color: #F5F6FA;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 10px;
+        border-radius: 10px;
+        }
+
+        .explore_group {
+        display: flex;
+        align-items: center;
+        }
+
+        .explore_text {
+        font-size: 16px;
+        color: #000;
+        margin-right: 5px; /* 文本之间的间隔 */
+        font-weight: bold;
+        }
+
+        .world_text {
+        font-size: 16px;
+        color: #216BC4;
+        margin-right: 2px; /* 文本与箭头之间的间隔 */
+        font-weight: bold;
+        }
+
+        .zhang_map .zhang_icon {
+        width: 20px; /* SVG图标的宽度 */
+        height: 20px; /* SVG图标的高度 */
+        }
+
+        .explore_group .zhang_icon {
+        margin-left: 1px; /* 箭头与文字之间的间隔 */
+        width: 10px; /* SVG图标的宽度 */
+        height: 10px; /* SVG图标的高度 */
+        }
+
+        .zhang_map {
+        display: flex;
+        align-items: center;
+        gap: 5px; /* 图标与文本之间的间隔 */
+        }
+
+        .map_text {
+        font-size: 12px;
+        color: #216BC4;
+        /*字体加粗*/
+        font-weight: bold;
+        }
+
+        .zhang_features {
+        display: flex;
+        justify-content: space-around;
+        padding: 2px 0;
+        background-color: #F5F6FA;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 10px;
+        border-radius: 10px;
+        }
+
+        .feature_box {
+          position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        background-color: #fff;
+        border-radius: 10px;
+        text-align: center;
+        margin: 0 3px; /* 添加1px的外边距 */
+        width: 120px;
+        }
+
+        .feature_box .overlay{
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(0, 0, 0, 0.5); /* 黑色半透明背景 */
+          z-index: 10; /* 确保遮罩层在内容上方 */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white; /* 文字颜色 */
+          font-size: 16px; /* 字体大小 */
+          display: none; /* 默认隐藏 */
+        }
+
+        .feature_box p {
+        margin-bottom: 5px; /* 文字与图标之间的间距 */
+        font-size: 14px;
+        color: #000;
+        font-weight: bold;
+        }
+
+        .feature_box .zhang_icon {
+        width: 35px; /* SVG图标的宽度 */
+        height: 35px; /* SVG图标的高度 */
+        }
+
+        .zhang_boxes_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style: none; /* 移除列表项的默认样式 */
+        padding: 0; /* 移除默认的内边距 */
+        margin-top: 10px; /* 与上方盒子的间距 */
+        }
+
+        .zhang_box_list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        width: calc(50% - 10px); /* 两列展示，减去间距 */       
+         margin-bottom: 10px;
+        background-color: #fff;
+        padding: 10px;
+        box-sizing: border-box;
+        position: relative; /* 为右下角文本定位 */
+        }
+
+        .box_image {
+        width: 100%; /* 使图片宽度适应盒子宽度 */
+        height: auto; /* 保持图片宽高比 */
+        border-radius: 10px; /* 图片圆角 */
+        margin-bottom: 5px; /* 图片与文字之间的间距 */
+        }
+
+        .box_text {
+        padding: 5px;
+        align-items: center;
+        width: 100%;
+        }
+
+        .box_text p:first-child {
+        margin: 0; /* 移除默认的外边距 */
+        color: #000; /* 文字颜色 */
+        font-size: 14px; /* 文字大小 */
+        }
+
+        .corner_text {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        font-size: 12px;
+        color: #000;
+        }
+
+        .zhang_nav{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background-color: #eee;
+            
+        }
+        .zhang_nav ul{
+            display: flex;
+        }
+        .zhang_nav li{
+            width: 20%;
+            display: flex;
+            justify-content: center;/* 水平居中 */
+        }
+        .zhang_nav a{
+            position: relative;
+        }
+        .zhang_nav svg{
+            font-size: 36px;
+            display: block;
+            margin-top: 4px;
+        }
+        .zhang_nav p{
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+        }
+        .num{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center;
+        }
+        .dot{
+            position: absolute;
+            top: 0;
+            right: -5px;
+            width: 6px;
+            height: 6px;
+            background-color: red;
+            border-radius: 50%;
+            margin-top: 4px;
+            margin-right: 4px;
+        }
+        
+
+        body, html {
+         margin: 0;
+         padding: 0;
+         font-family: Arial, sans-serif; 
+       }
+       .zhang_top-nav {
+         background-color: #DEE5ED;
+         color: white;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 10px 20px;
+         width: 100%;
+         margin: 0 ; /* 水平居中 */
+       }
+       .zhang_top-nav .back-button {
+         cursor: pointer;
+         font-size: 24px;
+         padding: 10px;
+         border: none;
+         background: none;
+         color: black;
+         margin-right: auto; /* 将按钮推向左侧 */
+       }
+       .zhang_top-nav .search-box {
+         flex-grow: 1;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+       }
+       .search-box .search-input {
+         padding: 8px 16px;
+         border: none;
+         border-radius: 24px; /* 增加圆角半径 */
+         width: 100%;
+         max-width: 300px;
+       }
+       .zhang_top-nav .ellipsis {
+         cursor: pointer;
+         font-size: 24px;
+         padding: 10px;
+         border: none;
+         color: #000;
+         margin-right: 25px;
+       }
+       .zhang_filter-container {
+         background-color: #DEE5ED; 
+         padding: 0px 0; 
+         position: sticky;
+           left: 0;
+           top: 0;
+         width: 100%;
+           margin: 0 ; 
+       }
+       .zhang_filter-container .filter-options {
+         display: flex;
+         justify-content: center;
+         padding: 10px 0;
+         width: 50%;
+         margin: 0 auto; 
+       }
+       .filter-options .filter-option {
+         margin: 0 100px; 
+         color: #1965C5; 
+         font-size: 14px; 
+         white-space: nowrap;
+       }
+       .zhang_filter-container .categories {
+         display: flex;
+         justify-content: center;
+         width: 50%; 
+         padding: 10px 0; 
+         margin: 0 auto; 
+       }
+       .categories .category-box {
+         background-color: white;
+         color: black;
+         padding: 10px 20px;
+         margin: 0 10px; 
+         border-radius: 4px; 
+         border: 1px solid #ddd;
+         font-size: 14px;
+         white-space: nowrap;
+       }
+       .zhang_filter-container .additional-options {
+         display: flex;
+         justify-content: center;
+         padding: 10px 0; 
+         background-color: #fff; 
+         font-size: 14px;
+       }
+       .additional-options .additional-box {
+         background-color: white;
+         color: black;
+         padding: 10px 20px;
+         margin: 0 10px; 
+         border-radius: 4px;
+         border: 1px solid #ddd;
+       }
+       .zhang_image-column {
+         display: flex; 
+         flex-direction: column; 
+         align-items: flex-start; 
+         padding: 20px; 
+         margin: 0 ; 
+       }
+       .zhang_image-column .sights {
+         list-style: none; /* 移除默认的列表样式 */
+         padding: 0; /* 移除内边距 */
+       }
+       .zhang_image-column li {
+         display: flex; 
+         align-items: flex-start; 
+         margin-bottom: 10px; /* 列表项之间的间距 */
+       }
+       .image-with-caption img {
+         width: 100%; 
+         max-width: 200px; 
+         height: auto; 
+         margin-bottom: 10px; 
+         border-radius: 8px; 
+         object-fit: cover; 
+       }
+       .image-with-caption {
+         display: flex; 
+         align-items: flex-start; 
+         margin-bottom: 10px;
+       }
+       .image-with-caption .caption-container {
+         margin-left: 10px;
+       }
+       .image-with-caption .caption {
+         font-size: 18px; 
+         color: #000;
+         font-weight: bold;
+       }
+       .rank-container .rank-box {
+         background-color: #F2BD9B; /* "碑榜"盒子的背景颜色 */
+         color: #333;
+         padding: 3px 10px;
+         border-radius: 4px;
+         margin-top: 5px;
+         font-weight: bold;
+       }
+       .rank-container .rank-box1 {
+         background-color: #F4F8FB; /* "碑榜"盒子的背景颜色 */
+         color: #333;
+         padding: 3px 10px;
+         border-radius: 4px;
+         margin-top: 5px;
+       }
+       .rank-container .night-rank-box {
+         background-color: #FFEFDF; /* "辽宁夜游必打卡榜"盒子的背景颜色 */
+         color: #333;
+         padding: 3px 10px;
+         border-radius: 4px;
+         margin-top: 5px;
+         font-weight: bold;
+       }
+       .rank-container .night-rank-box1 {
+         background-color: #F4F8FB; /* "辽宁夜游必打卡榜"盒子的背景颜色 */
+         color: #333;
+         padding: 3px 10px;
+         border-radius: 4px;
+         margin-top: 5px;
+         margin-left: 10px;
+       }
+       .caption-container .rank-container {
+         display: flex;
+         align-items: center;
+         font-size: 12px;
+       }
+       .caption-container .rating-container {
+         display: flex;
+         align-items: center;
+         background-color: #fff; /* 背景颜色 */
+         padding: 3px 10px;
+         border-radius: 4px;
+         margin-top: 5px;
+         font-size: 14px;
+       }
+       .rating-container .rating-fire {
+         margin-right: 5px; /* 🔥和7.0之间的间距 */
+         color:#E5626A;
+         background: #FFF1F1;
+       }
+       .rating-container .rating-score {
+         margin-left: 10px; /* 分数和评论之间的间距 */
+         color: #4F4F4F;
+       }
+       .caption-container .distance-container {
+         display: flex;
+         justify-content: space-between; /* 确保子元素分散对齐 */
+         align-items: center;
+         margin-top: 5px;
+         font-size: 14px;
+         color: #4F4F4F;
+       }
+       .distance-container .free-text {
+         margin-left: 60px; /* 将“免费”文本推向右侧 */
+         color: #4F4F4F;
+       }
+
+
+    
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 33vh; /* 视频容器高度 */
+    overflow: hidden; /* 防止视频溢出 */
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-container .video-top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.video-top-left .back-button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    width: 24px; /* 图标大小 */
+    height: 24px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明的黑色背景 */
+    border-radius: 50%; /* 圆形背景 */
+}
+
+.video-container .video-bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px; /* 盒子之间的间隔 */
+}
+
+.video-bottom-left .section-titles {
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    gap: 10px; /* 内容之间的间隔 */
+    color: #fff;
+}
+
+.video-bottom-left .expert-notes {
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+    color: #33A5C9;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.video-container .video-top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px; /* 图标之间的间隔 */
+}
+
+.video-top-right .zhang_icon {
+    fill: #fff; /* 图标颜色 */
+    width: 24px; /* 图标大小 */
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明的黑色背景 */
+    border-radius: 50%; /* 圆形背景 */
+}
+/* styles.css */
+/* ... 其他样式 ... */
+
+.zhang_info-container {
+    position: relative;
+    width: 100%;
+    background-color: #fff; /* 盒子的背景颜色 */
+    padding: 20px 0; /* 根据需要调整内边距 */
+}
+
+.zhang_info-container .info-box {
+    background-color: #fff; /* 盒子的背景颜色 */
+    color: #000; /* 文字颜色 */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* 根据需要调整内边距 */
+}
+
+.info-box .location {
+    margin-right: 5px; /* 老虎滩海洋公园和5A之间的间隔 */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-box .rating {
+    background-color: #F4F8FB; /* 5A的背景颜色 */
+    color: #748396; /* 文字颜色 */
+    font-weight: bold;
+    margin-right: 5px; /* 5A和🔥8.0之间的间隔 */
+    padding: 5px 10px; /* 根据需要调整内边距 */
+    border-radius: 5px; /* 圆角 */
+    font-size: 12px;
+}
+
+.info-box .score {
+    background-color: #FFF1F1; /* 🔥8.0的背景颜色 */
+    color: #E5626A; /* 文字颜色 */
+    font-weight: bold;
+    padding: 5px 10px; /* 根据需要调整内边距 */
+    border-radius: 5px; /* 圆角 */
+    font-size: 12px;
+}
+/* styles.css */
+/* ... 其他样式 ... */
+
+/* styles.css */
+.zhang_info-container .details-box {
+    display: flex;
+    align-items: center;
+    padding: 2px 0; /* 根据需要调整上下内边距 */
+    background-color: #fff; /* 盒子的背景颜色 */
+    margin-top: 10px; /* 与上方盒子的间隔 */
+}
+
+
+
+.details-box .rating {
+    padding: 5px 10px; /* 内边距 */
+    border-radius: 2px; /* 圆角 */
+    background-color: #0165F7; /* 蓝色背景颜色 */
+    color: #fff; /* 白色文字 */
+    margin-right: 0;
+}
+
+.details-box .comments {
+    padding: 5px 10px; /* 内边距 */
+    border-radius: 2px; /* 圆角 */
+    background-color: #E4F0FE; /* 浅蓝色背景颜色 */
+    color: #0D62CD; /* 黑色文字 */
+    margin-right: 20px;
+}
+
+.details-box .feature1 {
+    padding: 5px 10px; /* 内边距 */
+    border-radius: 2px; /* 圆角 */
+    background-color: #61300F; /* 棕色背景颜色 */
+    color: #FAD8BD; /* 白色文字 */
+}
+
+.details-box .feature2 {
+    padding: 5px 10px; /* 内边距 */
+    border-radius: 2px; /* 圆角 */
+    background-color: #FFEDDF; /* 浅棕色背景颜色 */
+    color: #643E27; /* 黑色文字 */
+    margin-right: 10px; /* 第四个盒子右侧间隔20px */
+}
+
+.zhang_info-container .info-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0; /* 根据需要调整上下内边距 */
+    background-color: #fff; /* 盒子的背景颜色 */
+}
+
+.info-row .status {
+    color: green; /* 绿色文字 */
+    margin-right: 5px; /* 向右间隔5px */
+}
+
+.info-row .timing {
+    margin-left: 5px; /* 向左间隔5px */
+    margin-right: 290px;
+}
+
+.info-row .more {
+    margin-right: 20px; /* 距离页面最右侧的间隔 */
+    text-decoration: none; /* 去除下划线 */
+    color: #000; /* 文字颜色，根据需要调整 */
+}
+
+.zhang_info-container .price {
+    display: flex; /* 使用Flexbox布局 */
+    align-items: center; /* 垂直居中对齐 */
+    padding: 3px 0; /* 上下内边距 */
+    background-color: #fff; /* 背景颜色 */
+    gap: 5px; /* 盒子之间的间隔 */
+}
+
+/* 价格项样式 */
+.price-item1,.price-item2,.price-item3 {
+    background-color: #F4F8FB; /* 背景颜色 */
+    color: #203A51; /* 文字颜色 */
+    padding: 5px 10px; /* 内边距 */
+    border-radius: 2px; /* 圆角 */
+    font-size: 14px; /* 字体大小 */
+}
+
+.zhang_info-container .address {
+    padding: 5px 0; /* 上下内边距 */
+    color: #000; /* 文字颜色，可以根据需要调整 */
+    font-size: 14px; /* 字体大小 */
+    font-weight: bold;
+}
+
+/* 选项卡容器样式 */
+.tabs-container {
+    display: flex;
+    justify-content: space-around; /* 选项均匀分布 */
+    background-color: #fff; /* 背景颜色 */
+    padding: 10px 0; /* 上下内边距 */
+}
+
+/* 单个选项卡样式 */
+.tab {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* 使每个选项卡占据相等的空间 */
+    cursor: pointer;
+    color: #000; /* 文字颜色 */
+    text-align: center; /* 文本居中 */
+    background-color: #e4f0fe; /* 浅蓝色背景颜色 */
+    padding: 10px; /* 内边距 */
+    border-radius: 5px; /* 圆角 */
+    transition: background-color 0.3s; /* 平滑过渡效果 */
+}
+
+/* 图标样式 */
+.tab-icon {
+    width: 24px; /* 图标宽度 */
+    height: 24px; /* 图标高度 */
+    fill: #000; /* 图标颜色 */
+    margin-right: 5px; /* 图标与文字之间的间隔 */
+}
+
+/* 文字样式 */
+.tab-text {
+    font-size: 16px; /* 字体大小 */
+}
+
+/* 选项卡hover样式 */
+.tab:hover {
+    background-color: #fff; /* 鼠标悬停时的白色背景 */
+}
+
+/* 激活状态的选项卡样式 */
+.tab.active {
+    background-color: #fff; /* 激活状态的白色背景 */
+    color: #0165F7; /* 激活状态的文字颜色 */
+}
+
+/* 预定选项卡内容区域样式 */
+.tab-content {
+    padding: 20px 0; /* 上下内边距 */
+    display: none;
+
+}
+
+/* 预定选项卡中的盒子样式 */
+.booking-options {
+    display: flex; /* 使用Flexbox布局 */
+}
+
+/* 单个盒子样式 */
+.booking-box {
+    background-color: #F6F7FB; /* 灰色背景颜色 */
+    color: #000; /* 文字颜色 */
+    padding: 10px 15px; /* 内边距 */
+    margin: 0 5px; /* 每个盒子之间的间隔 */
+    text-align: center; /* 文本居中 */
+    border-radius: 5px; /* 圆角 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+}
+
+
+/* 垂直滚动tab栏样式 */
+.vertical-tabs {
+  display: flex;
+  flex-direction: column;
+  max-height: 300px; /* 根据需要调整高度 */
+  overflow-y: auto; /* 允许垂直滚动 */
+}
+
+/* 单个tab项样式 */
+.vertical-tab {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* 根据需要调整间距 */
+}
+
+/* tab项hover样式 */
+.vertical-tab:hover {
+    background-color: #eaeaea; /* 鼠标悬停时的背景颜色 */
+}
+
+/* 激活状态的tab项样式 */
+.vertical-tab.active {
+    background-color: #009688; /* 激活状态的背景颜色 */
+    color: #fff; /* 文字颜色 */
+}
+
+/* 显示垂直滚动tab栏 */
+.show-vertical-tabs .vertical-tabs {
+    transform: translateY(0); /* 移动到视口内 */
+}
+   
+
+/* 顶部大盒子样式 */
+.top-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #D8E7FC; /* 更浅的蓝色 */
+}
+/* 消息盒子样式 */
+.message-box {
+  background-color: #D8E7FC; /* 更浅的蓝色 */
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #31708f;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+/* 内部盒子样式 */
+.internal-container {
+  background-color: #fff; /* 白色背景 */
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 15px;
+
+
+}
+/* 小盒子样式 */
+.small-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+/* 为每个图标设置不同的背景颜色 */
+.icon-1 { 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: #3CADFB; } /* 红色 */
+.icon-2 { 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: #FDA247; } /* 蓝色 */
+.icon-3 { 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: #FC7825; } /* 绿色 */
+.icon-4 { 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: #C29C5B; } /* 黄色 */
+/* 文字样式 */
+.text {
+  font-size: 16px; /* 字体大小 */
+  color: #333; /* 字体颜色 */
+}
+/* 链接样式 */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.new-container {
+  background-color: #fff; /* 白色背景 */
+  padding: 10px 0; /* 上下内边距 */
+ 
+}
+
+
+.new-container ul {
+  list-style: none; /* 移除列表项的默认样式 */
+  margin: 0; /* 移除外边距 */
+  padding: 0; /* 移除内边距 */
+}
+.new-container li {
+  display: flex; /* 使用Flexbox布局 */
+  align-items: center; /* 垂直居中 */
+  padding: 10px 20px; /* 内边距 */
+  border-bottom: 1px solid #eee; /* 下边框 */
+}
+.new-container li:last-child {
+  border-bottom: none; /* 最后一个列表项没有下边框 */
+}
+.new-container img {
+  width: 90px; /* 图片宽度 */
+  height: 90px; /* 图片高度 */
+  margin-right: 10px; /* 图片与文字之间的间隔 */
+  border-radius: 50%; /* 圆形图片 */
+}
+.new-container p {
+  margin: 0; /* 移除外边距 */
+  font-size: 16px; /* 字体大小 */
+  color: #333; /* 字体颜色 */
+}
+.fixed-message {
+  position: fixed;
+  /*居中*/
+  left: 0px;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+.sliding-tab-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  border-bottom: 1px solid #fff;
+  position:sticky;
+  top: 0;
+  z-index: 1000;
+}
+.tab-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #fff;
+  margin-right: -1px; /* 使选项卡之间没有间隙 */
+  transition: background-color 0.3s;
+}
+.tab-item:hover {
+  background-color: #e0e0e0;
+}
+.active-tab {
+  background-color: #fff;
+  border-bottom: 2px solid #007bff;
+  color: #007bff;
+  font-weight: bold;
+}
+.tab-content-container {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.active-content {
+  display: block;
+}
+
+
+
+
+        
+
+        .zhang_z.zhang_greeting-container {
+  display: flex;
+align-items: center;
+margin-left: 20px; /* 与页面左侧的间隔 */
+background-color: #D3DFF9;
+}
+
+.zhang_greeting-container .circle-image {
+  width: 50px; /* 圆形图片的宽度，根据需要调整 */
+height: 50px; /* 圆形图片的高度，根据需要调整 */
+border-radius: 50%; /* 使图片显示为圆形 */
+margin-right: 20px; /* 图片和文字之间的间隔 */
+}
+
+.zhang_greeting-container p{
+  margin-left: 60px;
+  margin-top: -30px;
+  font-size: 16px;
+}
+.zhang_greeting-container .zzz{
+  margin-left: 100px;
+  margin-top: 13px;
+  background-color: #fff;
+}
+.zhang_greeting-container .zzz p{
+  font-size: 12px;
+}
+      
+        .zhang_member-container {
+          display: flex;
+          
+          justify-content: space-between;
+          align-items: center;
+          background-color: #C9E7FF; /* 浅蓝色背景 */
+          padding: 10px 20px; /* 根据需要调整内边距 */
+          margin-top: 20px; /* 与上一个容器的间隔 */
+      }
+      
+      .zhang_member-container .member-title {
+          font-size: 16px; /* 字体大小 */
+          color: #333; /* 字体颜色 */
+      }
+      
+      .zhang_member-container .member-center {
+          font-size: 16px; /* 字体大小 */
+          color: #333; /* 字体颜色 */
+      }
+      .zhang_member-container .enefits-container {
+        display: flex; /* 使用flex布局 */
+        justify-content: space-between; /* 子项之间的间隔 */
+        padding: 20px; /* 内边距 */
+        background-color: #C9E7FF; /* 浅蓝色背景 */
+        margin-top: 20px; /* 与标题的间隔 */
+      }
+      
+      .benefits-container {
+        display: flex; /* 使用flex布局 */
+        justify-content: space-between; /* 子项之间的间隔 */
+        padding: 10px; /* 内边距 */
+        background-color: #C9E7FF; /* 浅蓝色背景 */
+        margin-top: 0px; /* 与标题的间隔 */
+      }
+      .benefits-container .benefit-item {
+        display: flex; /* 使用flex布局 */
+        flex-direction: column; /* 垂直排列 */
+        align-items: center; /* 水平居中 */
+        text-align: center; /* 文字居中 */
+        width: calc(33.333% - 10px); /* 减去间隔的宽度 */
+        padding: 10px; /* 每个benefit-item的内边距 */
+        box-sizing: border-box; /* 确保内边距不影响宽度计算 */
+        background-color: #C9E7FF; /* 每个benefit-item的背景颜色 */
+        border-radius: 8px; /* 每个benefit-item的圆角 */
+      }
+      
+      .benefit-item .benefit-icon {
+        width: 40px; /* 图标宽度 */
+        height: 40px; /* 图标高度 */
+        background-color: #70A6EC; /* 背景颜色 */
+        margin-bottom: 10px; /* 图标和文字之间的间隔 */
+        /* 如果有图标，可以在这里添加背景图片，例如：background-image: url('path-to-icon.png'); */
+        border-radius: 50%; /* 圆形图标 */
+      }
+      
+      .benefit-item .benefit-text p {
+        margin: 0; /* 移除外边距 */
+        font-size: 14px; /* 字体大小 */
+        color: #333; /* 字体颜色 */
+        text-align: center; /* 文字居中 */
+      }
+      
+      .zhang_zzz .zhang_additional-info {
+          background-color: #FEF4F2; /* 浅棕色背景 */
+          color: #AC534F; /* 文字颜色 */
+          padding: 2px; /* 内边距 */
+          margin-top: 0px; /* 与上一个容器的间隔 */
+          border-radius: 5px; /* 圆角 */
+      }
+      .zhang_zzz{
+          background-color: #F4F4F4;
+      }
+
+
+      .swiper-container {
+        width: 100%; /* 宽度100% */
+        overflow: hidden; /* 隐藏溢出的内容 */
+    }
+    .swiper-wrapper .swiper-slide {
+      display: flex;
+      flex-wrap: wrap; /* 允许换行 */
+      justify-content: space-between; /* 确保子元素之间的间距均匀 */
+      align-items: center; /* 垂直居中 */
+      height: auto; /* 自适应高度 */
+      padding: 10px; /* 内边距 */
+      width: 100%;
+  max-width: 1200px; /* 假设每个盒子宽度加上间距不超过1200px */
+  margin: 0 auto; /* 水平居中 */
+  background-color: #fff;
+  }
+  .swiper-slide .favorite-item {
+    width: calc(20% - 10px); /* 每个盒子占据总宽度的20%，减去间距 */
+    margin: 5px; /* 添加一些外边距 */
+    text-align: center; /* 文本居中 */
+}
+/* favorite-item 盒子内部样式 */
+.swiper-slide .favorite-item svg {
+  width: 100%; /* SVG 宽度 */
+  height: auto; /* SVG 高度 */
+  max-width: 24px; /* SVG 最大宽度 */
+  margin-bottom: 5px; /* SVG 和文本之间的间距 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .zhang_zzz .zhang_favorites-container {
+          display: flex; /* 使用flex布局 */
+          justify-content: space-between; /*子项之间的间隔 */
+          background-color: #fff; /*浅棕色背景 */
+          padding: 10px; /*内边距 */
+           margin-top: 10px; /*与上一个容器的间隔 */
+       }
+      
+      /* .zhang_favorites-container .favorite-item { */
+          /* display: flex; 使用flex布局
+          flex-direction: column; 垂直排列
+          align-items: center; 水平居中
+          text-align: center; 文字居中
+          margin: 0 10px; 每个favorite-item的外边距 */
+      /* } */
+      
+       .zhang_favorites-container .favorite-item p {
+          margin: 0; /* 移除外边距 */
+            font-size: 14px;/* 字体大小 */
+           color: #333; /*字体颜色 */
+       } 
+      
+       .zhang_zzz .zhang_icons-container {
+          display: flex; /* 使用flex布局 */
+          justify-content: space-between; /*子项之间的间隔 */
+           background-color: #fff; /*浅棕色背景 */
+          padding: 20px; /*内边距 */
+           margin-top: 10px; /*与上一个容器的间隔 */
+     } 
+      
+       .zhang_icons-container .icon-item {
+          display: flex; /* 使用flex布局 */
+           flex-direction: column; /*垂直排列 */
+           align-items: center; /*水平居中 */
+          text-align: center; /*文字居中 */
+           margin: 0 10px; /*每个icon-item的外边距 */
+       } 
+      
+       .icon-item svg {
+          width: 40px; /* 图标宽度 */
+           height: 40px;/* 图标高度 */
+           margin-bottom: 10px; /*图标和文字之间的间隔 */
+       } 
+      
+      .icon-item p {
+          margin: 0; /* 移除外边距 */
+           font-size: 14px; /*字体大小 */
+           color: #333; /*字体颜色 */
+       } 
+      
+      
+       .swiper-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      } 
+      
+      /* .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 50%; /* 每个swiper-slide占据一半的宽度 */
+        /* padding: 20px; 内边距 */
+        /* background-color: #fff; 背景颜色 */
+        /* box-sizing: border-box; 确保内边距不影响宽度计算 */
+      /* } */ 
+      
+       /*.swiper-slide .favorite-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 10px; /* 每个favorite-item的外边距 */
+      /* }  */
+      
+       .swiper-slide .favorite-item svg {
+        width: 40px; 
+        height: 40px; 
+         margin-bottom: 2px; 
+      }  
+      
+       .swiper-slide .favorite-item p {
+        margin: 0; /* 移除外边距 */
+         font-size: 14px; 
+         color: #333; 
+       }  
+
+       .zhang_loan-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff; /* 背景颜色 */
+     padding: 20px; /*内边距 */
+     margin-top: 10px; /*与上一个容器的间隔 */
+     border-radius: 8px; /*每个benefit-item的圆角 */
+
+ } 
+
+
+
+
+
+
+
+
+
+/* 每个小盒子的样式 */
+.zhang_loan-container .loan-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(25% - 10px); /* 减去间隔的宽度 */
+    margin: 5px; /* 每个loan-item的外边距 */
+}
+
+/* 每个loan-item中的p标签样式 */
+.loan-item p {
+    margin: 0; /* 移除外边距 */
+    font-size: 14px; /* 字体大小 */
+    color: #333; /* 字体颜色 */
+    text-align: center; /* 文字居中 */
+}
+
+.partnership-container {
+    text-align: center; /* 文字居中 */
+    padding: 20px; /* 内边距 */
+    margin-top: 10px; /* 与上一个容器的间隔 */
+    background-color: #fff; /* 背景颜色 */
+    border-radius: 8px; /* 圆角 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 轻微的阴影效果 */
+}
+
+/* 标题样式 */
+.partnership-container  .partnership-title {
+    margin: 0; /* 移除外边距 */
+    font-size: 20px; /* 主要信息的字体大小 */
+    color: #333; /* 字体颜色 */
+    margin-bottom: 5px; /* 与详细描述的间隔 */
+}
+
+/* 详细描述样式 */
+.partnership-container  .partnership-detail {
+    margin: 0; /* 移除外边距 */
+    font-size: 16px; /* 次要信息的字体大小 */
+    color: #666; /* 字体颜色，可以与主要信息有所区分 */
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* 图片之间的间距 */
+    margin-left: 20px; /* 图片与文本的间距 */
+}
+
+.images-container img {
+    width: 100px; /* 设置图片的宽度，根据需要调整 */
+    height: auto; /* 保持图片的纵横比 */
+    flex-shrink: 0; /* 防止图片在缩小时被压缩 */
+}
+
+.tab-content1 .images-container {
+  display: block; /* 确保容器是块级元素 */
+}
+
+/* 点评/笔记的图片样式 */
+.tab-content1 .images-container img {
+  width: 100%; /* 图片宽度占满容器宽度 */
+  max-width: 600px; /* 设定图片的最大宽度，可根据实际情况调整 */
+  height: auto; /* 保持图片原始比例 */
+  margin-bottom: 10px; /* 图片之间的间隔 */
+  display: block; /* 使图片独占一行 */
+}
